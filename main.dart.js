@@ -1232,7 +1232,7 @@ t=s}while(true)switch(t){case 0:q=0
 case 2:if(!(q<3)){t=4
 break}p=B.q[q]
 o=p==="Feed",n=p+" the ",m=0
-case 5:if(!(m<2)){t=7
+case 5:if(!(m<4)){t=7
 break}l=B.r[m]
 t=l!=="cats"||o?8:9
 break
@@ -1695,7 +1695,7 @@ B.i=function(hooks) {
 B.d=function(hooks) { return hooks; }
 
 B.q=A.ay(t(["Walk","Wash","Feed"]),u.s)
-B.r=A.ay(t(["cats","dogs"]),u.s)
+B.r=A.ay(t(["cats","dogs","kambing","kerbau"]),u.s)
 B.t=A.v("dt")
 B.u=A.v("du")
 B.v=A.v("cc")
